@@ -26,19 +26,19 @@ K_G = Client(
 	api_hash=API_HASH
 	)
 
-# Başlanğıc Düyməsi üçün Def Yaradaq :)
+# Start Buttonu İcin Def Oluşturalım :)
 def button():
-	BUTTON=[[InlineKeyboardButton(text="??????? Sahibim ",url="t.me/A_l_i_y_e_v_d_i"
-BUTTON+=[[InlineKeyboardButton(text="?? Oyun Gurupmuz ??",url="t.me/iron_Blood_Gurup")]]
+	BUTTON=[[InlineKeyboardButton(text="??????? Sahibim ",url="t.me/A_l_i_y_e_v_d_i")]]
+	BUTTON+=[[InlineKeyboardButton(text="?? Oyun Gurupmuz ??",url="t.me/iron_Blood_Gurup")]]
 	return InlineKeyboardMarkup(BUTTON)
 
-# İstifadəçi Başlanğıc əmrindən istifadə etdikdə salamlaşaq :)
+# Kullanıcı Start Komutunu Kullanınca Selam'layalım :)
 @K_G.on_message(filters.command("start"))
 async def _(client, message):
-	user = message.from_user # İstifadəçinin ID-sini əldə edin
+	user = message.from_user # Kullanıcın Kimliğini Alalım
 
-	await message.reply_text(text="**Salam {}!**\n\n__Mən əyləncəli robotam 👻)
-		user.mention, # İstifadəçinin adı
+	await message.reply_text(text="**Salam {}!**\n\n__Sizidə Gurupmuza Dəvət Edirik 👻🤍 :)__\n\n**Gurupmuz =>** [t.me/iron_Blood_Gurup)\nDoğruluq mu? Cəsarət mi? Oyun əmri => /dc".format(
+		user.mention, # Kullanıcı'nın Adı
 		),
 	disable_web_page_preview=True, # Etiketin Önizlemesi Olmaması İcin Kullanıyoruz
 	reply_markup=button() # Buttonlarımızı Ekleyelim
