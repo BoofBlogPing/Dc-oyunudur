@@ -1,7 +1,7 @@
 {
   "name": "Tg Eğlence Bot",
   "description": "Pyrogram İle Yazılmış Bir Eğlence Botu",
-  "repository": "https://github.com/AkinYoungSoftware/TgEglenceBot.git",
+  "repository": "https://github.com/Aliyevdii/soz-oyun",
   "logo": "https://telegramchannels.me/storage/media-logo/2001/dcgamebot.jpg",
   "keywords": ["telegram", "game", "pyrogram","telegram bot"],
   "env": {
