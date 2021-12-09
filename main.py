@@ -29,6 +29,7 @@ K_G = Client(
 # Başlanğıc Düyməsi üçün Def Yaradaq :)
 def button():
 	BUTTON=[[InlineKeyboardButton(text="??????? Sahibim ",url="t.me/A_l_i_y_e_v_d_i"
+BUTTON+=[[InlineKeyboardButton(text="?? Oyun Gurupmuz ??",url="t.me/iron_Blood_Gurup")]]
 	return InlineKeyboardMarkup(BUTTON)
 
 # İstifadəçi Başlanğıc əmrindən istifadə etdikdə salamlaşaq :)
