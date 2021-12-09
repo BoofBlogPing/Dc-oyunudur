@@ -1,5 +1,5 @@
 C_LIST=[
-	"Seçdiyiniz sosial media hesabı ilə çox çirkin fotoşəkil paylaş.", "Mesaj yazma" bölməsini telefonunuzdan açın, gözlərinizi bağlayın və mətni təsadüfi bir insana göndərin.",
+	"Geç Bunu.",
 	"Növbəti beş dəqiqə ərzində dediklərinizdən sonra," mi "deyəcəksiniz.,
 	"Növbəti 5 dəqiqədə kiminsə heyvan olun.", "Oyunçulardan birinə instagram verin. Beş dəqiqə ərzində hər yerə baxmaq sərbəstdir.",
 	"Serenadanı oyundan bir insana (bir kişi qız və bir qız oğlan) et", " növbəti 3 turda dialektlə danışın.",
