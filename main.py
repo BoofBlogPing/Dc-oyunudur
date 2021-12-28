@@ -37,7 +37,7 @@ def button():
 async def _(client, message):
 	user = message.from_user # Kullanıcın Kimliğini Alalım
 
-	await message.reply_text(text="**Salam {}!**\n\n🤖 Mən Doğruluq yoxsa Cəsarət  oyunu üçün aparıcı botam !\n\nOyunu başlatmaq üçün məni qrupa əlavə edib /dc komandasını yazın".format(
+	await message.reply_text(text="**Salam {}!**\n\n__🤖 Mən Doğruluq yoxsa Cəsarət  oyunu üçün aparıcı botam!__\n\nOyunu başlatmaq üçün məni qrupa əlavə edib /dc komandasını yazın".format(
 		user.mention, # Kullanıcı'nın Adı
 		),
 	disable_web_page_preview=True, # Etiketin Önizlemesi Olmaması İcin Kullanıyoruz
