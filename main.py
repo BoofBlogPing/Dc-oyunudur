@@ -28,8 +28,8 @@ K_G = Client(
 
 # Start Buttonu İcin Def Oluşturalım :)
 def button():
-	BUTTON=[[InlineKeyboardButton(text="👨🏻‍💻 Owner ",url="t.me/F_r_o_z_e_d_i")]]
-	BUTTON+=[[InlineKeyboardButton(text="⚕️ Supprot",url="t.me/BLACK_MMC")]]
+	BUTTON=[[InlineKeyboardButton(text="👨🏻‍💻 Owner",url="t.me/F_r_o_z_e_d_i")]]
+	BUTTON+=[[InlineKeyboardButton(text="🐈 Oyun Gurupmuz",url="t.me/Cat_House_Gurups")]]
 	return InlineKeyboardMarkup(BUTTON)
 
 # Kullanıcı Start Komutunu Kullanınca Selam'layalım :)
@@ -37,7 +37,7 @@ def button():
 async def _(client, message):
 	user = message.from_user # Kullanıcın Kimliğini Alalım
 
-	await message.reply_text(text="**Salam {}!**\n\n__🤖 Mən Doğruluq yoxsa Cəsarət  oyunu üçün aparıcı botam!__\n\nOyunu başlatmaq üçün məni qrupa əlavə edib /dc komandasını yazın".format(
+	await message.reply_text(text="**Salam {}!**\n\n__Mən Doğruluk Cesaret Oyun Botuyam__\n\nBaşlatmaq Ücün /sor yazın".format(
 		user.mention, # Kullanıcı'nın Adı
 		),
 	disable_web_page_preview=True, # Etiketin Önizlemesi Olmaması İcin Kullanıyoruz
@@ -46,8 +46,8 @@ async def _(client, message):
 
 # Dc Komanda üçün düymələr
 def d_or_c(user_id):
-	BUTTON = [[InlineKeyboardButton(text="Doğruluk🤓", callback_data = " ".join(["d_data",str(user_id)]))]]
-	BUTTON += [[InlineKeyboardButton(text="Cesaret😎", callback_data = " ".join(["c_data",str(user_id)]))]]
+	BUTTON = [[InlineKeyboardButton(text="Doğruluk", callback_data = " ".join(["d_data",str(user_id)]))]]
+	BUTTON += [[InlineKeyboardButton(text="Cesaret", callback_data = " ".join(["c_data",str(user_id)]))]]
 	return InlineKeyboardMarkup(BUTTON)
 
 # Dc Komutunu Oluşturalım
